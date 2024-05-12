@@ -136,7 +136,7 @@ public function profileDestroy($id)
           'message' => 'You account is deleted. Create a new one to perform actions. Now You will redirect to Registration page'
       ]);
 }
-
+    
   public function logOut()
   {
     Auth::logout();
