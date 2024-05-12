@@ -139,9 +139,7 @@ public function profileDestroy($id)
 
   public function logOut()
   {
-    // $cart = Cart::pull('cart');
     Auth::logout();
-    // session()->put(['cart' => $cart]);
     return redirect(route('user.home'));
   }
 }
